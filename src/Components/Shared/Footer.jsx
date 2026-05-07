@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="mt-16">
       {/* Main Grid */}
-      <div className="container mx-auto  px-4 sm:px-6 lg:px-8 py-12 grid md:grid-cols-4 gap-10">
+      <div className="w-11/12 mx-auto  px-4 sm:px-6 lg:px-0 py-12 grid md:grid-cols-4 gap-10">
         {/* Brand Column */}
         <div>
           {/* Logo */}
@@ -125,7 +125,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-0 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-gray-500 text-sm text-center">
             © 2026 DragonNews. All Rights Reserved.
           </p>

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router";
-import user from "../assets/user.png";
+import user from "../assets/shihab.jpg";
 const Navbar = () => {
   const links = [
     { name: "Home", path: "/" },
@@ -16,13 +16,13 @@ const Navbar = () => {
     </li>
   ));
   return (
-    <div className="flex  items-center justify-between">
+    <div className="flex items-center justify-between">
       <div></div>
       <ul className="flex text-lg font-semibold items-center gap-8">
         {navLink}
       </ul>
       <div className="flex items-center gap-3">
-        <img src={user} alt="User Image" />
+        <img src={user} className="w-12 h-12 rounded-full" alt="User Image" />
         <button className="btn bg-gray-700 text-white text-lg px-8">
           Login
         </button>
